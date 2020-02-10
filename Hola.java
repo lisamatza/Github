@@ -8,4 +8,8 @@ class Hola{
       System.out.println("2. Sumar");
       int num=Lectura.readInt();
    }
+   
+   public static double multiplicar(double a, double b){
+      return a*b;
+   }
 }
